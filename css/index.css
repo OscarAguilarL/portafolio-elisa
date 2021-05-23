@@ -2,6 +2,9 @@
 @import "./wrapper.css";
 @import "./header.css";
 @import "./menu.css";
+@import "./hero.css";
+@import "./social-icons.css";
+@import "./comment.css";
 
 :root {
   --font: "Oxygen", sans-serif;
@@ -10,8 +13,8 @@
   --headline3: bold 3rem/4.854000091552734rem var(--font);
   --headline4: bold 2.125rem/3.4382500648498535rem var(--font);
   --headline5: bold 1.5rem/2.427000045776367rem var(--font);
-  --body1: regular 1rem/1.6180000305175781rem var(--font);
-  --body2: regular 0.875rem/1.4157500267028809rem var(--font);
+  --body1: normal 1rem/1.6180000305175781rem var(--font);
+  --body2: normal 0.875rem/1.4157500267028809rem var(--font);
   --button: bold 0.875rem/1.4157500267028809rem var(--font);
   --caption: regular 0.75rem/1.2135000228881836rem var(--font);
   --black: #0f0a0a;
@@ -20,8 +23,9 @@
 }
 
 body {
-  font: var(--body1);
   background: var(--gradient);
   min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--black);
   margin: 0;
 }

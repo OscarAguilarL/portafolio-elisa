@@ -1,0 +1,18 @@
+.comment {
+  font: var(--headline5);
+  padding-block: 40px;
+  text-align: center;
+  max-inline-size: 540px;
+  margin: auto;
+}
+
+.comment p span {
+  display: inline-block;
+}
+
+.comment p span:first-of-type {
+  font-weight: normal;
+}
+.comment p span:nth-of-type(2) {
+  margin-block-start: 1.5rem;
+}
