@@ -10,6 +10,10 @@
   text-transform: uppercase;
   text-decoration: none;
   box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn.is-secondary {

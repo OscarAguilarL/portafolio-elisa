@@ -5,6 +5,8 @@
 @import "./hero.css";
 @import "./social-icons.css";
 @import "./comment.css";
+@import "./title.css";
+@import "./project.css";
 
 :root {
   --font: "Oxygen", sans-serif;
@@ -26,6 +28,5 @@ body {
   background: var(--gradient);
   min-block-size: 100vh;
   font: var(--body1);
-  color: var(--black);
   margin: 0;
 }

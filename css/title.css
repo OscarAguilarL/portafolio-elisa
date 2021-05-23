@@ -1,0 +1,12 @@
+.title {
+  background: var(--black);
+  color: var(--primary);
+  font: var(--headline5);
+  margin: 0;
+  padding-inline: 8px;
+  padding-block: 4px;
+  text-align: center;
+  align-self: flex-start;
+  box-shadow: -4px 4px 0 #fff;
+  text-transform: uppercase;
+}
