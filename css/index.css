@@ -1,0 +1,27 @@
+@import "./button.css";
+@import "./wrapper.css";
+@import "./header.css";
+@import "./menu.css";
+
+:root {
+  --font: "Oxygen", sans-serif;
+  --headline1: bold 5.9375rem/9.6068754196167rem var(--font);
+  --headline2: bold 3.6875rem/5.96637487411499rem var(--font);
+  --headline3: bold 3rem/4.854000091552734rem var(--font);
+  --headline4: bold 2.125rem/3.4382500648498535rem var(--font);
+  --headline5: bold 1.5rem/2.427000045776367rem var(--font);
+  --body1: regular 1rem/1.6180000305175781rem var(--font);
+  --body2: regular 0.875rem/1.4157500267028809rem var(--font);
+  --button: bold 0.875rem/1.4157500267028809rem var(--font);
+  --caption: regular 0.75rem/1.2135000228881836rem var(--font);
+  --black: #0f0a0a;
+  --primary: #42e2b8;
+  --gradient: linear-gradient(135deg, #fad7a1 0%, #e96d71 100%);
+}
+
+body {
+  font: var(--body1);
+  background: var(--gradient);
+  min-block-size: 100vh;
+  margin: 0;
+}
