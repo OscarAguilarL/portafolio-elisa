@@ -8,6 +8,7 @@
 @import "./title.css";
 @import "./project.css";
 @import "./testimony.css";
+@import "./form.css";
 
 :root {
   --font: "Oxygen", sans-serif;

@@ -16,7 +16,7 @@
     <header class="header">
       <div class="wrapper">
         <div class="header-content">
-          <img src="./img/LOGO.png" alt="" />
+          <a href="#"><img src="./img/LOGO.png" alt="" /></a>
           <nav class="menu">
             <ul>
               <li><a href="#hola">Hola</a></li>
@@ -63,7 +63,7 @@
         </article>
       </section>
 
-      <section class="comment">
+      <section class="comment" id="projects">
         <p>
           <span>
             A lo largo de mi carrera como Frontend, he tenido el privilegio de
@@ -199,8 +199,37 @@
           "Por primera vez en la historia de nuestra empresa, aparecimos en
           todas las plataformas en las que trabajamos".
         </p>
-        <p>MARCO CORTEZ / NETNETL</p>
+        <p>MARCO CORTEZ / NETNET</p>
       </section>
+
+      <form action="#" method="post" class="form" id="contact">
+        <h5 class="title">Hablemos</h5>
+        <p>
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude
+          en ponerse en contacto conmigo.
+        </p>
+
+        <label for="form-name">
+          <span>Nombre completo <span>*</span></span>
+          <input type="text" name="name" id="form-name" placeholder="Juan" />
+        </label>
+
+        <label for="form-email">
+          <span>Correo electrónico <span>*</span></span>
+          <input
+            type="email"
+            name="email"
+            id="form-email"
+            placeholder="Juan@mail.com"
+          />
+        </label>
+
+        <label for="form-msg">
+          <span>Mensaje <span>*</span></span>
+          <textarea name="message" id="form-msg" cols="30" rows="10"></textarea>
+        </label>
+        <button type="submit" class="btn">Enviar mensaje</button>
+      </form>
     </div>
   </body>
 </html>
