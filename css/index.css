@@ -33,3 +33,7 @@ body {
   font: var(--body1);
   margin: 0;
 }
+
+#sendMail {
+  display: none;
+}

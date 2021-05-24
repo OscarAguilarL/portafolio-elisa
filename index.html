@@ -209,27 +209,41 @@
           en ponerse en contacto conmigo.
         </p>
 
-        <label for="form-name">
+        <label for="name">
           <span>Nombre completo <span>*</span></span>
-          <input type="text" name="name" id="form-name" placeholder="Juan" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Juan"
+            required
+          />
         </label>
 
-        <label for="form-email">
+        <label for="email">
           <span>Correo electrónico <span>*</span></span>
           <input
             type="email"
             name="email"
-            id="form-email"
+            id="email"
             placeholder="Juan@mail.com"
+            required
           />
         </label>
 
-        <label for="form-msg">
+        <label for="message">
           <span>Mensaje <span>*</span></span>
-          <textarea name="message" id="form-msg" cols="30" rows="10"></textarea>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
         </label>
         <button type="submit" class="btn">Enviar mensaje</button>
       </form>
+      <a href="mailto:aguilop.oscar@gmail.com" id="sendMail">mail</a>
     </div>
     <footer class="footer">
       <div class="footer-logo">
@@ -254,5 +268,6 @@
         <p>&nbsp; Copyright 2021 - Todos los derechos reservados.</p>
       </div>
     </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
