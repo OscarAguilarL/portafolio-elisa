@@ -1,0 +1,35 @@
+.footer-logo {
+  display: none;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer .social {
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-logo {
+    display: block;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 40px;
+  }
+
+  .footer .social {
+    order: 3;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-copy {
+    display: flex;
+  }
+}
